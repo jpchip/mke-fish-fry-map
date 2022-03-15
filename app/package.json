@@ -1,0 +1,41 @@
+{
+  "name": "mke-fish-fry-map",
+  "version": "0.0.1",
+  "description": "Leaflet map of fish frys in MKE area",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpchip/mke-fish-fry-map.git"
+  },
+  "keywords": [
+    "leaflet",
+    "map",
+    "mke",
+    "fish",
+    "fry",
+    "church"
+  ],
+  "author": "Jared Chapiewsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpchip/mke-fish-fry-map/issues"
+  },
+  "homepage": "https://github.com/jpchip/mke-fish-fry-map#readme",
+  "dependencies": {
+    "leaflet": "^1.7.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "@types/leaflet": "^1.7.9",
+    "parcel": "^2.3.2",
+    "parcel-reporter-static-files-copy": "^1.3.4"
+  },
+  "staticFiles": {
+    "staticPath": "src/assets",
+    "staticOutPath": "assets"
+  }
+}
